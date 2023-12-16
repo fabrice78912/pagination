@@ -1,0 +1,22 @@
+#server:
+#  port: 8085
+#
+#spring:
+#  jackson:
+#    default-property-inclusion: non_null
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/pagination?autoReconnect=true&useSSL=false&createDatabaseIfNotExist=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#    password: pagination
+#    username: root
+#    driver-class-name=com: com.mysql.cj.jdbc.Driver
+#
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL8InnoDBDialect
+#    generate-ddl: true
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#        format_sql: true
