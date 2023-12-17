@@ -1,0 +1,23 @@
+name: CD Pipeline
+
+on:
+  workflow_run:
+    workflows: ["CI Pipeline"]
+    types:
+      - completed
+
+jobs:
+
+  build:
+
+    runs-on: self-hosted
+
+    steps:
+      - name: Delete previous image
+        run: sudo docker rmi pagination || true
+      - name: Pull Docker image
+        run: sudo docker pull fabrice7891/pagination:latest
+      - name: Delete Old docker container
+        run: sudo docker rm -f pagination-container || true
+      - name: Run Docker Container
+        run: sudo docker run -d -p 8080:8080 --name pagination-container fabrice7891/pagination

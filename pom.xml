@@ -40,6 +40,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.example</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.35</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -52,5 +58,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
             </plugin>
         </plugins>
+		<finalName>pagination-app</finalName>
 	</build>
 </project>

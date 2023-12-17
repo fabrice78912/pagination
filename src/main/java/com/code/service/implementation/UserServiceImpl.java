@@ -5,6 +5,8 @@ import com.code.domain.User;
 import com.code.repostitory.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.example.common.exception.OrderNotFoundException;
+import org.example.common.exception.UserNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
@@ -28,6 +30,12 @@ public class UserServiceImpl implements UserService {
     @Override
     public Page<User> getUsers(String name, int page, int size) {
         log.info("Fetching users for page {} of size {}", page, size);
-        return userRepository.findByNameContaining(name, of(page, size));
+        Page<User> userPage = userRepository.findByNameContaining(name, of(page, size));
+        if(userPage.getTotalElements() > 0 )
+        {return userPage;}
+
+        else {
+            throw new UserNotFoundException("user not found");
+        }
     }
 }

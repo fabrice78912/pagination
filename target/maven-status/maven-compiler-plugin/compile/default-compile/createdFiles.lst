@@ -6,6 +6,7 @@ com/code/PaginationApplication.class
 com/code/domain/User$UserBuilder.class
 com/code/resource/UserResource.class
 com/code/service/implementation/UserServiceImpl.class
+com/code/advise/ServiceGlobalExceptionHandler.class
 com/code/repostitory/UserRepository.class
 com/code/service/UserService.class
 com/code/domain/User$UserBuilderImpl.class
