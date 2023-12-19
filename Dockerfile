@@ -3,7 +3,8 @@
 FROM maven:3.8.3-openjdk-17-slim AS maven-builder
 WORKDIR /app
 COPY . /app
-RUN mvn -f pom.xml clean package -DskipTests
+#RUN mvn -f pom.xml clean package -DskipTests
+RUN mvn clean package
 
 
 # Step 2: Copier et lancer le .jar file
