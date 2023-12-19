@@ -22,4 +22,5 @@ com/code/dto/Response$ResponseBuilderImpl.class
 com/code/resource/UserResource.class
 com/code/exception/OrderNotFoundException.class
 com/code/service/UserService.class
+com/code/config/SwaggerConfig.class
 com/code/exception/SwiggyServiceException.class
