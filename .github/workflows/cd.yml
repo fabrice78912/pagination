@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Delete previous image
-        run: sudo docker rmi pagination || true
+        run: sudo docker rmi cafe-cicd || true
       - name: Pull Docker image
-        run: sudo docker pull fabrice7891/pagination:latest
+        run: sudo docker pull fabrice7891/cafe-cicd:latest
       - name: Delete Old docker container
-        run: sudo docker rm -f pagination-container || true
+        run: sudo docker rm -f cafe-cicd-container || true
       - name: Run Docker Container
-        run: sudo docker run -d -p 8080:8080 --name pagination-container fabrice7891/pagination
+        run: sudo docker run -d -p 8080:8080 --name cafe-cicd-container fabrice7891/cafe-cicd
