@@ -6,15 +6,18 @@ import com.code.dto.GlobalErrorCode;
 import com.code.exception.InternalServerErrorException;
 import com.code.exception.UserNotFoundException;
 import lombok.extern.slf4j.Slf4j;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
+//@ComponentScan(basePackages="org.example.common.advice")
 @Slf4j
 public class RestaurantServiceGlobalExceptionHandler {
+
+
+
 
     @ExceptionHandler(UserNotFoundException.class)
     public ResponseEntity<?> handleOrderNotFoundException(UserNotFoundException ex){

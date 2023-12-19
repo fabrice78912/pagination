@@ -5,6 +5,7 @@ com/code/dto/Response$ResponseBuilder.class
 com/code/PaginationApplication.class
 com/code/domain/User$UserBuilder.class
 com/code/service/implementation/UserServiceImpl.class
+com/code/advise/ServiceGlobalExceptionHandler.class
 com/code/repostitory/UserRepository.class
 com/code/exception/InternalServerErrorException.class
 com/code/dto/CustomErrorResponse.class
@@ -19,4 +20,6 @@ com/code/dto/GlobalErrorCode.class
 com/code/dto/OrderResponseDTO$OrderResponseDTOBuilder.class
 com/code/dto/Response$ResponseBuilderImpl.class
 com/code/resource/UserResource.class
+com/code/exception/OrderNotFoundException.class
 com/code/service/UserService.class
+com/code/exception/SwiggyServiceException.class

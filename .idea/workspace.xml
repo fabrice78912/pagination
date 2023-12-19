@@ -5,37 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295d49e2-3c62-4e03-a4b7-34d478a1e0ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/advise/RestaurantServiceGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/dto/CustomErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/dto/GlobalErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/dto/OrderResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/dto/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/exception/InternalServerErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/exception/OrderNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/exception/SwiggyServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_example_common_0_0_35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20230227.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagination.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pagination.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/PaginationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/PaginationApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/advise/RestaurantServiceGlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/advise/RestaurantServiceGlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse$HttpResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse$HttpResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse$HttpResponseBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse$HttpResponseBuilderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/domain/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/User$UserBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/domain/User$UserBuilderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dto/CustomErrorResponse$CustomErrorResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dto/CustomErrorResponse$CustomErrorResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dto/CustomErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dto/CustomErrorResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dto/GlobalErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dto/GlobalErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dto/OrderResponseDTO$OrderResponseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dto/OrderResponseDTO$OrderResponseDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dto/OrderResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dto/OrderResponseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dto/Response$ResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dto/Response$ResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dto/Response$ResponseBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dto/Response$ResponseBuilderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dto/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dto/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/exception/InternalServerErrorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/exception/InternalServerErrorException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/exception/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/exception/UserNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/repostitory/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/repostitory/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/resource/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/resource/UserResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/implementation/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/implementation/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pagination-app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/pagination-app.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pagination-app.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/pagination-app.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.code.PaginationApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.code.PaginationApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.code.PaginationApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.code.PaginationApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/code/PaginationApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/code/PaginationApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/advise/ServiceGlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/advise/ServiceGlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/implementation/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/implementation/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/PaginationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/advise/ServiceGlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse$HttpResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse$HttpResponseBuilderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/HttpResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/User$UserBuilderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/repostitory/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/resource/UserResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/implementation/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pagination-app.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pagination-app.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.code.PaginationApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.code.PaginationApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/code/PaginationApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +97,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/code" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
