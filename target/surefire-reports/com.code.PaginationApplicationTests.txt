@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.code.PaginationApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.333 s - in com.code.PaginationApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.289 s - in com.code.PaginationApplicationTests
