@@ -1,8 +1,14 @@
 /Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/service/UserService.java
+/Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/dto/OrderResponseDTO.java
 /Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/domain/HttpResponse.java
 /Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/domain/User.java
+/Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/exception/UserNotFoundException.java
+/Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/dto/GlobalErrorCode.java
+/Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/advise/RestaurantServiceGlobalExceptionHandler.java
+/Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/dto/CustomErrorResponse.java
+/Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/dto/Response.java
 /Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/repostitory/UserRepository.java
-/Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/advise/ServiceGlobalExceptionHandler.java
 /Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/PaginationApplication.java
 /Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/service/implementation/UserServiceImpl.java
 /Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/resource/UserResource.java
+/Users/fabricefoko/Documents/Projets_JAVA/pagination/src/main/java/com/code/exception/InternalServerErrorException.java

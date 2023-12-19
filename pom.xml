@@ -41,11 +41,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>org.example</groupId>
 			<artifactId>common</artifactId>
 			<version>0.0.35</version>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 
 	<profiles>

@@ -1,12 +1,11 @@
 package com.code.service.implementation;
 
-import com.code.service.UserService;
 import com.code.domain.User;
+import com.code.exception.UserNotFoundException;
 import com.code.repostitory.UserRepository;
+import com.code.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.example.common.exception.OrderNotFoundException;
-import org.example.common.exception.UserNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
